@@ -1,5 +1,5 @@
 CREATE PROCEDURE spwCreateADAdminUser
-  @ADuser VARCHAR(100)
+  @adUser VARCHAR(100)
 AS
 BEGIN
   CREATE user @adUser from external provider;
